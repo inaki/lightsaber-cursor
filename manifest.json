@@ -1,10 +1,8 @@
 {
   "manifest_version": 2,
-
+  "version": "0.0.1",
   "name": "Lightsaber cursor",
   "description": "This extension changes your boring cursor into a lightsaber! May the force be with you.",
-  "version": 1.0,
-
   "browser_action": {
     "default.icon": "lightsabers.png",
     "default_popup": "popup.html"
