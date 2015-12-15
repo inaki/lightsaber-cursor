@@ -2,10 +2,16 @@
   "manifest_version": 2,
   "version": "0.0.1",
   "name": "Lightsaber cursor",
-  "description": "This extension changes your boring cursor into a lightsaber! May the force be with you.",
+  "author": "Keala Lusk",
+  "description": "This extension changes your boring cursor into a lightsaber. May the force be with you.",
+  "homepage_url": "https://github.com/contactkeala/lightsaber-cursor",
   "browser_action": {
-    "default_icon": "lightsaber.png",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "Come to the dark side..."
+  },
+  "icons": {
+    "128": "icons/128.png",
+    "32": "icons/32.png"
   },
   "permissions": [
     "activeTab",
