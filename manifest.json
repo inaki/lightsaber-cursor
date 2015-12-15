@@ -4,7 +4,7 @@
   "name": "Lightsaber cursor",
   "description": "This extension changes your boring cursor into a lightsaber! May the force be with you.",
   "browser_action": {
-    "default.icon": "lightsabers.png",
+    "default_icon": "lightsaber.png",
     "default_popup": "popup.html"
   },
   "permissions": [
