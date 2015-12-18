@@ -14,9 +14,6 @@
     "32": "icons/32.png"
   },
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/",
-    "http://code.jquery.com/jquery-1.11.3.min.js",
-    "http://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    "*://*/*", "<all_urls>"
   ]
 }
