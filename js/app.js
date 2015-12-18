@@ -1,5 +1,5 @@
 $(function () {
   $("button").click(function() {
-    $("button").addClass('lightsaber-cursor');
+    $(this).addClass('lightsaber-cursor');
   });
 });
