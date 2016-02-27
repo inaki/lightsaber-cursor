@@ -13,7 +13,16 @@
     "128": "icons/128.png",
     "32": "icons/32.png"
   },
+  "content_scripts": [
+  {
+    "matches" : [
+    "http://*/*"
+    ],
+    "js": ["popup.js"]
+    }
+    ],
   "permissions": [
-    "*://*/*", "<all_urls>"
+    "*://*/*", "<all_urls>",
+    "activeTab"
   ]
 }
