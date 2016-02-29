@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Turn On your lightsaver cursor",
+  "description": "Use the source Luke",
+  "version": "1.0",
+
+  "icons": {
+    "48": "Fg4fMvn.png"
+  },
+
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "Fg4fMvn.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
